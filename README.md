@@ -1,4 +1,5 @@
 ## **<h2 align="center"> 🗺️ Mapmytask</h2>**
+<br>
 
 ## About
 This project was developed fo a hackathon DUHacks 2.0. . The application will allow users to create, view, and manage tasks in an interactive map interface.
