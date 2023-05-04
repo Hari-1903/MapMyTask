@@ -2,7 +2,7 @@
 <br>
 
 ## ℹ️ About
-This project was developed fo a hackathon DUHacks 2.0. . The application will allow users to create, view, and manage tasks in an interactive map interface.
+This application will allow users to create, view, and manage tasks in an interactive map interface.
 By leveraging the power of maps and providing a user-friendly interface,it help users to quickly view the proximity of tasks and manage their daily tasks more effectively.While there are existing task management applications available, they often lack the visual and location-based organization that is provided by a map-based interface
 <br>
 ### :rocket: Technologies used :
