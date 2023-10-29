@@ -62,7 +62,7 @@ class Chore extends task {
     }
 }
 
-VANTA.WAVES({
+VANTA.TOPOLOGY({
     el: "#main-background",
     mouseControls: true,
     touchControls: true,
@@ -70,8 +70,7 @@ VANTA.WAVES({
     minHeight: 200.00,
     minWidth: 200.00,
     scale: 1.00,
-    scaleMobile: 1.00,
-    color: 0x161f27
+    scaleMobile: 1.00
   })
 
 
