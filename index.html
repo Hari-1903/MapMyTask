@@ -22,15 +22,12 @@
   
   <!-- main js script -->
   <script defer src="./script.js"></script>
-  <title>MapMyTask</title>
+  <title>MapmyTask</title>
 </head>
 <body id="main-background">
   <div class="sidebar">
-    <img src="logo wt.png" alt="Logo" class="logo" />
-    
+    <img src="Logo_with_name.png" alt="Logo" class="logo" />
     <ul class="tasks">
-      
-      
       <div class="controls">
         <button class="show__sort__btns">Sort</button>
         <div>
@@ -39,7 +36,6 @@
         </div> 
       </div>
       <hr class="sort__devider">
-      
         <form class="form hidden">
           <div class="form__row">
             <label class="form__label">Type</label>
@@ -60,11 +56,10 @@
             <input  class="form__input form__input--TimeReq" placeholder="hrs"/>
           </div>
           <div class="form__row">
-            <label class="form__label">ID</label>
+          <label class="form__label">ID</label>
             <input
               class="form__input form__input--ProjectNo"
               placeholder="ProjectID"
-            
             />
           </div>
           <div class="form__row form__row--hidden">
@@ -72,24 +67,18 @@
             <input 
               class="form__input form__input--elevation"
               placeholder="Taskno"
-            
             />
           </div>
           <button class="form__btn">OK</button>
         </form>
-
         <div class="validation__msg">Inputs have to be<span class="positive__numbers"> positive numbers!</span></div>
-
-        
         <div class="sort__buttons__container zero__height">
           <button data-type ="TimeReq" class="sort__button"><span class="task__icon">⏱</span> <span class="arrow">&#129045</span></button>
           <button data-type ="DueDate" class="sort__button"><span class="task__icon">📅</span> <span class="arrow">&#129045</span></button>
           <button data-type ="ProjectNo" class="sort__button"><span class="task__icon">🆔</span> <span class="arrow">&#129045</span></button>
         </div>
     </div>
-
     <div id="map"></div>
-
     <div class="confirmation__msg msg__hidden">
       <div class="msg">
         <div class="question">
@@ -101,7 +90,7 @@
         </div>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
   </body>
 </html>
